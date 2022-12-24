@@ -1,0 +1,95 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+
+* = expression Because it is mathematical operators.
+
+'hello' = vlaue Because it is string.
+
+-87.8 = value Because it is floot number
+
+-  = expression because it is subtraction operators.
+
+/ = expression because it is divide operators.
+
++ = expression because it is add operators.
+
+6 = value because it is integer.
+
+
+2. What is the difference between string and variable?
+=> string = a sequence of character encosed within single or double quotes.
+   variable = it s a type of storage, which contain data types.
+   example=> name = "reyan"  # Here name is variable and reyan is string.
+   
+3. Describe three different data types.
+=> There are many type of data types likes
+    a) int  = we can use int data type to represent whole number.
+    ex. a = 10
+    b) float = we can use float data type to represent decimal number. 
+    ex. b = 10.3
+    c) str = we can use str data type to represent string 
+    ex. c = "reyan"
+    d) bool = we can use bool data type to represent boolean values there are only True and False are allowed values.
+    ex. d = True
+    e) list = if we want to represent a group of values as a single entity where ensertion order required and duplicates are             allowed.
+    ex. e = [12,23,'reyan','ineuron']
+    f) complex =  we can use complex data type to represent complex number. etc..
+    ex. f = 2+4j
+
+4. What is an expression made up of? What do all expressions do?
+=> An expression is made the combination of operators and operands. an expression produces some value or result after interpreted by python interpretor.
+   example. x = x + 20
+   
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+=> Here spam = 10, is an statement. statement is not evaluate for some result. A statement used for creating a variable.
+
+6. After running the following code, what does the variable bacon contain?
+      bacon = 22
+      bacon + 1
+ ====> it simply execute without error. in result we got nothing.
+         if print(bacon + 1) = 23
+         
+7. What should the values of the following two terms be?
+ =>    'spam'+ 'spamspam' =  'spamspamspam'. # it will concatante bcoz both are string
+       'spam' * 3 =   'spamspamspam'. # spam repeat 3 times bcoz 'spam' is string and 3 is int so string multiplication happened.
+ 
+8. Why is eggs a valid variable name while 100 is invalid?
+=> Here here eggs for pytohn identifiers but 100 is not bcoz a variable never start with a number.
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+=> int() = for integer
+   float() = for floating-point number
+   str() = for string
+   
+10. Why does this expression cause an error? How can you fix it?
+     'I have eaten' + 99 +'burritos'
+=> this expression cause an error because here we want to concatantae a string with integer.
+    it should we like this = 'I have eaten ' + '99' + ' burritos'
+    or 'I have eaten ' + str(99) + ' burritos'
+   
+   
+   
+                                                                                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
